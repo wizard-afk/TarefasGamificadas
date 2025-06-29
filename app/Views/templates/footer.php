@@ -1,22 +1,7 @@
-  <!-- Main Footer -->
-  <footer class="main-footer">
-    <!-- To the right -->
-    <div class="float-right d-none d-sm-inline">
-      Anything you want
-    </div>
-    <!-- Default to the left -->
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
-  </footer>
-</div>
-<!-- ./wrapper -->
-
-<!-- REQUIRED SCRIPTS -->
-
-<!-- jQuery -->
-<script src="<?= base_url('tema/plugins/jquery/jquery.min.js')?>"></script>
-<!-- Bootstrap 4 -->
-<script src="<?= base_url('tema/plugins/bootstrap/js/bootstrap.bundle.min.js')?>"></script>
-<!-- AdminLTE App -->
-<script src="<?= base_url('tema/dist/js/adminlte.min.js')?>"></script>
-</body>
-</html>
+<!-- Main Footer -->
+<footer class="main-footer" style="background-color: #f7f5ff; border-top: 1px solid #e0dbff; color: #4a3e8e; font-weight: 500;">
+  <div class="float-right d-none d-sm-inline">
+    FlutterTasks 🦋
+  </div>
+  <strong>&copy; <?= date('Y') ?> <a href="#" style="color: #6c63ff;">🦋FlutterTasks🦋</a>.</strong> Todos os direitos reservados.
+</footer>
